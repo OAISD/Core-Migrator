@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyModel.Resolution;
 
 namespace Core_Migrator
 {
+  // Credit to: https://samcragg.wordpress.com/2017/06/30/resolving-assemblies-in-net-core/
   internal sealed class AssemblyResolver : IDisposable
   {
     private readonly ICompilationAssemblyResolver assemblyResolver;
