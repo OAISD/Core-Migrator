@@ -1,5 +1,5 @@
 # Core-Migrator
-Migrates EF Core DBContexts in a standalone console application
+Migrates EF Core DBContexts in a standalone console application, without the need to include the DotNet Core SDK in a cloud image.
 
 Currently only supports mssql database contexts
 
